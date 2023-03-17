@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * using puts instead of printf
  * Return : 0 (Success)
  */
 int main(void)
