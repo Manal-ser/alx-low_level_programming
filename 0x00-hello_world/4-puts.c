@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * using puts instead of printf
- * return : 0 (Success)
+ * Return : 0 (Success)
  */
 int main(void)
 {
