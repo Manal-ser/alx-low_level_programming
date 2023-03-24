@@ -20,10 +20,13 @@ void more_numbers(void)
 	{
 		while (i < 15)
 		{
-			_putchar(i + '0');
+			if (i >= 10)
+				_putchar (i / 10 + '0');
+			_putchar(i % 10 + '0');
 			i++;
 		}
+		_putchar('\n');
+		i = 0;
 		j++;
 	}
-	_putchar('\n');
 }
