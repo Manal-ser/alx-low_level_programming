@@ -6,10 +6,10 @@
  * @a : first integer
  * @b : seconde integer
  *
- * Return : multiplication result
+ * Return : return result
  */
 
 int mul(int a, int b)
 {
-	return (a*b);
+	return (a * b);
 }
