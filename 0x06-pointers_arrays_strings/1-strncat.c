@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * _strncat - concatenates two strings
- *
  * @dest: points to destination input
  * @src: point to source input
  * @n: bytes
