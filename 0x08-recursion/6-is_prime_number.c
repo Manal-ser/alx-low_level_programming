@@ -5,7 +5,7 @@
  * @i: int
  * Return: 1 if int prime, 0 else
  */
-int is_prime(unsigned int n, unsigned int c)
+int is_prime(unsigned int n, unsigned int )
 {
 	if (n % i == 0)
 	{
