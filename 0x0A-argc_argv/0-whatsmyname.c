@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * main - prints the name of the programme
- * @argc: count arguments
+ * @argc: number of arguments
  * @argv: array of arguments
- * Return: Always 0 - success
+ * Return: 0 (success)
  */
 int main(int argc, int *argv[])
 {
