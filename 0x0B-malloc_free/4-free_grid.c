@@ -18,4 +18,3 @@ void free_grid(int **grid, int height)
 
 	free(grid);
 }
-/*There is something wrong with this code*/
