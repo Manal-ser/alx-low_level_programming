@@ -1,26 +1,7 @@
 #include "main.h"
 
-/**
- * error_file - check if file is accessible
- * @filename: filename
- * @file: file
- * @argv: arguments
- * Return:Nothing
- */
-void error_file(int filename, int file, char *argv[])
-{
-	if (filename == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
-		exit(98);
-	}
-
-	if (file == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
-		exit(99);
-	}
-}
+#define READ_ERR "Error: Can't read from file %s\n"
+#define WRITE_ERR "Error: Can't write to %s\n"
 
 /**
  * main - checks the code
@@ -45,7 +26,7 @@ int main(int argc, char *argv[])
 
 	while (1)
 	{
-		r = read(source, buffer 1024);
+		r = read(source, buffer, 1024);
 		if (r == -1)
 			dprintf(STDERR_FILENO, READ_ERR, argv[1]), exit(98);
 		if (r > 0)
